@@ -1,0 +1,76 @@
+.file{display: inline-block}
+
+ .file:hover{
+   display: inline-block;
+   border-radius: 6px;
+   background: rgba(61, 165, 244, 0.2);
+ }
+
+ .file span{
+   font-size: 100px;
+ }
+
+ .word {color: #5777ba}
+ .excel{color: #336a4e}
+ .point{color: #d14b00}
+ .pdf  {color: #a31f2c}
+ .zip  {color: #debe41}
+ .dbase{color: #536396}
+ .fil{color: #b3b3b3}
+ .jpg{color: #2dadea}
+ .code{color: #702b8ad4}
+
+ .checky{
+   position: absolute!important;
+   right: 10px!important;
+ }
+
+.nav-link span{
+  font-size: 1.3rem;
+  margin: 0 15px;
+}
+
+.form-group{width: 50%}
+
+.form-control{
+  display: block;
+  width: 100%;
+  height: calc(2.3em + 1rem);
+  padding: 1.5rem 1.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #f0f0f0;
+  background-clip: padding-box;
+  border: none;
+  font-weight: 500;
+  border-radius: 3.5rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+ #wrapper {
+    overflow-x: hidden;
+ }
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+@media (min-width: 768px) {
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -18rem;
+  }
+}
+@media (max-width: 768px) {
+.form-group{width: 100%;margin-top: 10px}
+.navbar-nav{
+  flex-direction: row!important;
+  justify-content: center;
+}
+}
